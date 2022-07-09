@@ -1,0 +1,21 @@
+body {
+  background-image: url("../images/background-image.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.logo-image {
+  max-width: 40%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+  flex-basis: 50%;
+}
+
+.question-box {
+  flex-basis: 50%;
+}
