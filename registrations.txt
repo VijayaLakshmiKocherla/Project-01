@@ -1,3 +1,2 @@
-pavan,pavan
-asdfas,asdfad
-vijji,vijji
+
+Vijji,pavan,vijji@globex.com

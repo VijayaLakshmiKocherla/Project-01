@@ -1,0 +1,25 @@
+body {
+    background-image: url('../images/background-image.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Nunito', sans-serif, "ExtraBold", 800;
+    font-style: italic;
+    flex-direction: column;
+}
+
+.logo-image {
+    max-width: 40%;
+    max-height: 40%;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.win-message {
+    font-size: xx-large;
+    padding: 3%;
+}

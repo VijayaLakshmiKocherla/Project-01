@@ -13,7 +13,7 @@ if (isset($_POST['Submit'])) {
         if ($registration[0] == $username) {
             if ($registration[1] == $password) {
                 $userfound = true;
-                header('Location: ./start-game.php');
+                header('Location: ./start-game-button.php');
             } else {
                 $invalidUser = true;
                 header('Location: ./signin.php?signin=invalid');

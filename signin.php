@@ -1,14 +1,15 @@
 <?php
 $msg = '';
-if(isset($_GET['signin'])){
-if($_GET['signin'] == "nouserfound"){
-    $msg = 'no user found';
-} else if($_GET['signin'] == "invalid"){
-    $msg = "invalid username/password";
-}
+if (isset($_GET['signin'])) {
+    if ($_GET['signin'] == "nouserfound") {
+        $msg = 'no user found';
+    } else if ($_GET['signin'] == "invalid") {
+        $msg = "invalid username/password";
+    }
 }
 ?>
 <html>
+
 <head>
     <title>
         Registration Page
@@ -17,6 +18,7 @@ if($_GET['signin'] == "nouserfound"){
 </head>
 
 <body>
+    <img class="logo-image" src="./images/logo.png">
     <div class="registration-form">
         <form action="./signin-submit.php" method="post">
             <table class="registration-table">
@@ -35,7 +37,9 @@ if($_GET['signin'] == "nouserfound"){
                 </tr>
                 <tr>
                     <td></td>
-                    <td><p><?php if($msg != '') echo $msg; ?></p></td>
+                    <td>
+                        <p><?php if ($msg != '') echo $msg; ?></p>
+                    </td>
                 </tr>
             </table>
         </form>

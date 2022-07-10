@@ -1,0 +1,122 @@
+{
+    "1": {
+        "question": "In the UK, the abbreviation NHS stands for National what Service?",
+        "option-one": "Humanity",
+        "option-two": "Health",
+        "option-three": "Honour",
+        "option-four": "Household",
+        "answer": "1"
+    },
+    "2": {
+        "question": "Which Disney character famously leaves a glass slipper behind at a royal ball?",
+        "option-one": "Pocahontas",
+        "option-two": "Sleeping Beauty",
+        "option-three": "Cinderella",
+        "option-four": "something",
+        "answer": "3"
+    },
+    "3": {
+        "question": "What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim?",
+        "option-one": "Hangar",
+        "option-two": "Terminal",
+        "option-three": "Concourse",
+        "option-four": "Carousel",
+        "answer": "4"
+    },
+    "4": {
+        "question": "Which of these brands was chiefly associated with the manufacture of household locks?",
+        "option-one": "Phillips",
+        "option-two": "Flymo",
+        "option-three": "Chubb",
+        "option-four": "Ronseal",
+        "answer": "3"
+    },
+    "5": {
+        "question": "The hammer and sickle is one of the most recognisable symbols of which political ideology?",
+        "option-one": "Republicanism",
+        "option-two": "Communism",
+        "option-three": "Conservatism",
+        "option-four": "Liberalism",
+        "answer": "2"
+    },
+    "6": {
+        "question": "Which toys have been marketed with the phrase “robots in disguise”?",
+        "option-one": "Bratz Dolls",
+        "option-two": "Sylvanian Families",
+        "option-three": "Hatchimals",
+        "option-four": "Transformers",
+        "answer": "4"
+    },
+    "7": {
+        "question": "What does the word loquacious mean?",
+        "option-one": "Angry",
+        "option-two": "Chatty",
+        "option-three": "Beautiful",
+        "option-four": "Shy",
+        "answer": "2"
+    },
+    "8": {
+        "question": "Obstetrics is a branch of medicine particularly concerned with what?",
+        "option-one": "Childbirth",
+        "option-two": "Broken bones",
+        "option-three": "Heart conditions",
+        "option-four": "Old age",
+        "answer": "1"
+    },
+    "9": {
+        "question": "In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
+        "option-one": "Bow-tie, braces and tweed jacket",
+        "option-two": "Wide-brimmed hat and extra long scarf",
+        "option-three": "Pinstripe suit and trainers",
+        "option-four": "Cape, velvet jacket and frilly shirt",
+        "answer": "2"
+    },
+    "10": {
+        "question": "Which of these religious observances lasts for the shortest period of time during the calendar year?",
+        "option-one": "Ramadan",
+        "option-two": "Diwali",
+        "option-three": "Lent",
+        "option-four": "Hanukkah",
+        "answer": "2"
+    },
+    "11": {
+        "question": "At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
+        "option-one": "Bahamas",
+        "option-two": "US Virgin Islands",
+        "option-three": "Turks and Caicos Islands",
+        "option-four": "Bermuda",
+        "answer": "1"
+    },
+    "12": {
+        "question": "Construction of which of these famous landmarks was completed first?",
+        "option-one": "Empire State Building",
+        "option-two": "Royal Albert Hall",
+        "option-three": "Eiffel Tower",
+        "option-four": "Big Ben Clock Tower",
+        "answer": "4"
+    },
+    "13": {
+        "question": "Which of these cetaceans is classified as a “toothed whale”?",
+        "option-one": "Gray whale",
+        "option-two": "Minke whale",
+        "option-three": "Sperm whale",
+        "option-four": "Humpback whale",
+        "answer": "3"
+    },
+    "14": {
+        "question": "Who is the only British politician to have held all four “Great Offices of State” at some point during their career?",
+        "option-one": "David Lloyd George",
+        "option-two": "Harold Wilson",
+        "option-three": "James Callaghan",
+        "option-four": "John Major",
+        "answer": "3"
+    },
+    "15": {
+        "question": "In 1718, which pirate died in battle off the coast of what is now North Carolina?",
+        "option-one": "Calico Jack",
+        "option-two": "Blackbeard",
+        "option-three": "Bartholomew Roberts",
+        "option-four": "Captain Kidd",
+        "answer": "2"
+    }
+}

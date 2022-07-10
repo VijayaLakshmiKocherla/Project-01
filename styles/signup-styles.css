@@ -6,6 +6,16 @@ body {
     justify-content: center;
     color: white;
     font-family: 'Nunito', sans-serif;
+    flex-direction: column;
+}
+
+.logo-image {
+    max-width: 40%;
+    max-height: 40%;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .registration-form {
@@ -21,12 +31,18 @@ td {
     padding: 5px 10px;
 }
 
-input[type="text"], input[type="password"]{
+.registration-table {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] input[type="confirmpassword"] {
     width: 100%;
-  padding: 8px 15px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
