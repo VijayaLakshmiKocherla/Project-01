@@ -2,9 +2,9 @@
 $msg = '';
 if (isset($_GET['signin'])) {
     if ($_GET['signin'] == "nouserfound") {
-        $msg = 'no user found';
+        $msg = 'No user found';
     } else if ($_GET['signin'] == "invalid") {
-        $msg = "invalid username/password";
+        $msg = "Invalid username/password";
     }
 }
 ?>
