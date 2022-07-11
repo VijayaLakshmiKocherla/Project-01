@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/background-image.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.description {
+    width: 70%;
+    margin-top: 40px;
+    border: 5px outset white;
+    padding: 30px;
+    line-height: 1.6;
+}

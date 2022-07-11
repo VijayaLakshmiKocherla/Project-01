@@ -25,19 +25,24 @@ array_multisort($columns, SORT_DESC, $scoresArray);
         <table style="border-collapse: collapse;">
             <caption class="table-caption">Leaderboard</caption>
             <tr class="table-row">
-                <th class="table-head">Name</th>
-                <th class="table-head">Score</th>
+                <th class="table-head">Contestant Name</th>
+                <th class="table-head">Amount won</th>
             </tr>
             <?php foreach ($scoresArray as $score) {
             ?>
                 <tr class="table-row">
                     <td class="table-data"><?php echo $score[0] ?></td>
-                    <td class="table-data"><?php echo $score[1]; ?></td>
+                    <td class="table-data"><?php echo "$" . $score[1]; ?></td>
                 </tr>
             <?php } ?>
         </table>
+        <form action="./start-game-button.php">
+            <input class="back" type="submit" name="Back" value="Home"></td>
+        </form>
+        <form action="./signout.php">
+            <input class="sign-out" type="submit" name="Signout" value="Sign Out"></td>
+        </form>
     </div>
-
 </body>
 
 </html>

@@ -9,6 +9,7 @@ if (isset($_POST['Submit'])) {
     if ($password == $confirmpassword) {
         $file = fopen('registrations.txt', 'a+');
         fwrite($file, "\n" . $username . "," . $password . "," . $email);
+        header('Location: ./signin.php');
     } else {
         header('Location: ./signup.php?signup=invalidPassword');
     }

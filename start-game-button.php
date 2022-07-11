@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['userData']['username'])) {
+    header('location: ./signin.php');
+}
+?>
 <html>
 
 <head>
@@ -12,10 +18,13 @@
 
     <div>
         <form action="./start-game.php">
-            <input type="submit" name="Submit" value="Start Game!"></td>
+            <input class="input-style" type="submit" name="Submit" value="Start Game!"></td>
         </form>
         <form action="./leaderboard.php">
-            <input type="submit" name="Leaderboard" value="Leaderboard"></td>
+            <input class="input-style" type="submit" name="Leaderboard" value="Leaderboard"></td>
+        </form>
+        <form action="./signout.php">
+            <input class="sign-out" type="submit" name="Signout" value="Sign Out"></td>
         </form>
     </div>
 

@@ -1,11 +1,6 @@
-{
-    questone_one: {
-        question: lakjsdflaksjdfl
-        answer: asdfaf
-    }
-    questiontwo: {
-        qeustoi
-    }
-}
-
-mekquestion[1][0]
+random,100000
+vijji,100
+pavan,200
+vivan,500000
+vijji,200
+vijji,300

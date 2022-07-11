@@ -6,16 +6,125 @@ body {
   align-items: center;
   color: white;
   font-family: "Nunito", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
 }
 
-.logo-image {
-  max-width: 40%;
-  max-height: 40%;
+.logo-table {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: green; */
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.millionaire-image {
+  display: flex;
+  flex: 1;
+  /* background-color: black; */
+  justify-content: center;
+  align-items: center;
+}
+
+.millionaire-image-actual {
+  max-height: 90%;
+  max-width: 70%;
   width: auto;
   height: auto;
-  flex-basis: 50%;
+}
+
+.amount-table {
+  flex: 1;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
 }
 
 .question-box {
-  flex-basis: 50%;
+  width: 50%;
+  flex: 1.5;
+}
+
+.question-box > form > table {
+  width: 100%;
+  font-size: xx-large;
+  border-spacing: 1em;
+}
+
+.question-box > form > table > caption {
+  padding: 25px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: rgb(33, 15, 195);
+}
+
+/* td {
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 25px;
+  border: 1px solid white;
+  background-color: rgb(33, 15, 195);
+  margin: 0 30px;
+  width: 100px;
+} */
+
+.question-box > form > table > tr > td {
+  text-align: center;
+}
+
+.question-box > form > table > tr > td:active,
+.option-button {
+  background-color: black;
+}
+
+.question-box > form > table > tr > td:hover,
+.option-button {
+  cursor: pointer;
+}
+
+.option-button, .game-options-input {
+  background-color: rgb(33, 15, 195);
+  color: white;
+  border: none;
+  font-size: large;
+  text-align: center;
+  width: 400px;
+  padding: 15px 0px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+.amount-table-data {
+  padding: 5px 30px;
+  text-align: left;
+}
+
+.amount-table > table {
+  background-color: rgb(33, 15, 195);
+  border-collapse: collapse;
+}
+
+.current-question {
+  background-color: gold;
+  color: black;
+}
+
+.game-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-options-input {
+  margin-right: 30px;
+  padding: 15px 10px;
+  width: auto;
+  background-color: green;
+}
+
+.game-options-input:hover {
+  cursor: pointer;
 }

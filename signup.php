@@ -28,7 +28,7 @@ if (isset($_GET['signup'])) {
                 </tr>
                 <tr>
                     <td>Email:</td>
-                    <td><input type="email" name="email" pattern=".+@example\.com" required placeholder="Enter your emailID (ex: you@example.com)"></td>
+                    <td><input type="email" name="email" maxlength="30" pattern=".+@example\.com" required placeholder="Enter your emailId (name@example.com)"></td>
                 </tr>
                 <tr>
                     <td>Password:</td>
@@ -40,8 +40,14 @@ if (isset($_GET['signup'])) {
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="submit" name="Submit" value="Register" maxlength="15"></td>
+                    <td><input type="submit" name="Submit" value="Register" maxlength="15"> <a href="./signin.php" style="margin-left: 15px;  color: #6d8cd3; text-decoration: none;">Already have an account? Login here</a></td>
                 </tr>
+
+            </table>
+        </form>
+
+        <form action="./signin.php">
+            <table>
                 <tr>
                     <td></td>
                     <td>
@@ -51,6 +57,7 @@ if (isset($_GET['signup'])) {
             </table>
         </form>
     </div>
+
 </body>
 
 </html>

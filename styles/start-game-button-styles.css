@@ -1,27 +1,34 @@
 body {
-    background-image: url('../images/background-image.jpeg');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    flex-direction: column;
+  background-image: url("../images/background-image.jpeg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
 }
 
 .logo-image {
-    max-width: 40%;
-    max-height: 40%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
-input[type=submit] {
-    font-family: 'Nunito', sans-serif, "ExtraBold", 800;
-    font-style: italic;
-    font-size: larger;
-    background-color: #0e4bda;
-    border: none;
-    border-radius: 10px;
-    padding: 15px 20px;
-    margin: 20px;
-    color: white;
-    cursor: pointer;
+.input-style,
+.sign-out {
+  font-family: "Nunito", sans-serif, "ExtraBold", 800;
+  font-style: italic;
+  font-size: larger;
+  background-color: #0e4bda;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-out {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }

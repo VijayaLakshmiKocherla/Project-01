@@ -1,48 +1,76 @@
 body {
-    background-image: url('../images/background-image.jpeg');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    flex-direction: column;
+  background-image: url("../images/background-image.jpeg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  flex-direction: column;
 }
 
 .logo-image {
-    max-width: 40%;
-    max-height: 40%;
-    display: flex;
-    flex: 2;
-    align-items: center;
-    justify-content: space-around;
+  max-width: 40%;
+  max-height: 40%;
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .registration-form {
-    align-items: center;
+  align-items: center;
 }
 
 .registration-caption {
-    font-size: x-large;
-    padding-bottom: 10px;
+  font-size: x-large;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 td {
-    padding: 5px 10px;
+  padding: 5px 10px;
 }
 
 .registration-table {
-    flex: 1;
+  flex: 1;
 }
 
 input[type="text"],
 input[type="password"],
-input[type="email"] input[type="confirmpassword"] {
-    width: 100%;
-    padding: 8px 15px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+input[type="email"],
+input[type="confirmpassword"] {
+  width: 130%;
+  padding: 8px 50px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  font-family: "Nunito", sans-serif, "ExtraBold", 800;
+  font-style: italic;
+  font-size: larger;
+  background-color: #0e4bda;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.register-table{
+    position: relative;
+    margin-left: 5px;
+}
+
+.register-here {
+  margin-left: 15px;
+  color: #6d8cd3;
+}
+
+.sign-in{
+  width: 50px;
 }
