@@ -12,7 +12,7 @@ if (isset($_GET['signin'])) {
 
 <head>
     <title>
-        Registration Page
+        Login Page
     </title>
     <link rel="stylesheet" href="./styles/signup-styles.css">
 </head>
