@@ -49,6 +49,7 @@ if (!isset($_POST['phone']) && !isset($_POST['audience']) && !isset($_POST['50-5
             $questionToShow = intval($questionNumber) + 1;
             $questionToShow = strval($questionToShow);
         } else {
+            $questionNumber = strval(intval($questionNumber) - 1);
             writeToLeaderboard($_SESSION['userData']['username'], $questionNumber);
             header('Location: ./gameover.php');
         }

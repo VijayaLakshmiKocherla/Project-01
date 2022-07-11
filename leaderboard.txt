@@ -1,6 +1,5 @@
-random,100000
-vijji,100
+demo,100000
 pavan,200
-vivan,500000
-vijji,200
-vijji,300
+vivan,50000
+vijji,0
+vijji,100
